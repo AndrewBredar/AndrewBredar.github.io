@@ -1,0 +1,103 @@
+body, html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    padding: 25px 45px;
+}
+
+.logo a { /* styling for menubar links */
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.logo a h1 {
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav { /*Menubar*/
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    line-height: 60px;
+}
+
+nav ul{ 
+    line-height: 60px; 
+    list-style: none;
+    background-color: #2792D8;
+    overflow: hidden;
+    padding: 0;
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav ul li {
+    display: inline-blocl;
+    padding: 16px 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.main_section {
+    text-align: left;
+    background-color: #eeeeee;
+}
+
+.main_section .intro .intro_text {
+    padding-top: 400px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.name {
+    letter-spacing: 12px;
+}
+
+.about {
+    display: flex;
+}
+
+.profilepic {
+    border-radius: 25%;
+
+}
+
+.about-text {
+
+
+}
+.skills{
+
+}
+
+.contact{
+    
+}
