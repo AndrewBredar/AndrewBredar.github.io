@@ -4,6 +4,7 @@
     text-decoration: none;
 }
 
+/* overall styling */
 body, html {
     width: 100%;
     height: auto;
@@ -19,35 +20,15 @@ h1 {
     padding-right: 25%;
     padding-bottom: 20px;
     color: #ffffff;
+    letter-spacing: 5px;
 }
 
 h2 {
     text-align: center;
 }
 
-.logo {
-    line-height: 60px;
-    position: fixed;
-    float: left;
-    padding: 25px 45px;
-}
-
-.logo a { /* styling for menubar links */
-    text-align: center;
-    text-decoration: none;
-    font-size: 40px;
-    font-weight: bold;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-.logo a h1 {
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-nav { /*Menubar*/
+ /*Menubar */
+.menubar nav {
     position: fixed;
     line-height: 60px;
     width: 100%;
@@ -57,7 +38,26 @@ nav { /*Menubar*/
     padding: 0px 40px;
 }
 
-nav ul{ 
+/* container for logo */
+.menubar nav .logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    padding: 25px 45px;
+}
+
+/* logo styling (just my name rn) */
+.menubar nav .logo a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* menu list */
+.menubar nav ul{ 
     line-height: 60px; 
     list-style: none;
     /* background-color: rgb(33, 91, 129); */
@@ -65,11 +65,11 @@ nav ul{
     padding: 0px 40px;
     float: right;
     margin: 0;
-    transition: 1s;
+    /* transition: 1s; */
 }
 
+/* menu items */
 nav ul li {
-    float: right;
     display: inline-block;
     list-style: none;
     list-style-type: none;
@@ -78,7 +78,10 @@ nav ul li {
     cursor: pointer;
 }
 
+/* menu words */
 nav ul li a{
+    border: solid 2px white;
+    border-radius: 10px;
     display: block;
     text-decoration: none;
     color: #ffffff;
@@ -87,17 +90,20 @@ nav ul li a{
     padding: 0 20px;
 }
 
+/* hover effect on menu */
 nav ul li a:hover {
     color: rgb(55, 162, 233);
     background: white;
     border-radius: 10px;
 }
 
+/* Everything after the menubar */
 .main_section {
     text-align: left;
     background-color: #eeeeee;
 }
 
+/*initial page*/
 .main-section .intro {
     width: 100%;
     height: 100vh;
@@ -110,6 +116,7 @@ nav ul li a:hover {
     background-size: cover;
 }
 
+/*text in the front page*/
 .main-section .intro .intro-text {
     padding-top: 400px;
     padding-bottom: 200px;
@@ -117,32 +124,101 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-.main-section .intro .intro-text img{
-    width: 100%;
-    height: auto;
+/* intro animation styling */
+.main-section .intro-text .intro-text .intro-animation{
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
 }
 
-.name {
-    letter-spacing: 12px;
+.main-section .intro-text .intro-text .intro-animation .text-wrapper{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
 
-.about {
+.main-section .intro .intro-text .intro-animation .text-wrapper .letters{
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* about section */
+.main-section .about{
     display: flex;
+    border: double;
 }
 
-.profilepic {
-    border-radius: 25%;
+/* Profile pic container */
+.main-section .about .profilepic {
+    padding: 100px;
+    border: dashed;
+    width: 40%;
+}
+
+/* Profile pic styling */
+.main-section .about .profilepic img {
+    border-radius: 50%;
+    height: 400px;
+    position: relative;
+    float: right;
+    box-shadow: 5px 5px 5px grey;
+}
+
+/* Profile pic description container */
+.main-section .about .about-text{
+    border: dotted;
+    border-color: red;
+   
+    position: relative;
+    text-align: center;
+    height: 600px;
+    float: left;
+    width: 60%;
+}
+
+/* Profile pic description text*/
+.main-section .about .about-text .p1{
+    border: solid;
+
+    font-size: 25px;
+    position: relative;
+    margin-top: 225px;
+    margin-right: 250px;
+    margin-left: 25px;
+}
+
+/* skills section */
+.main-section .skills {
+    border: dotted;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(55, 162, 233);
+}
+
+/* coursework section */
+.main-section .coursework{
+    border: dashed;
+    border-radius: 10px;
+    border-color: red;
+}
+
+/* projects section */
+.main-section .projects {
+    border: dashed;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: white;
+}
+
+/* projects section title */
+.main-section .projects #projects-info {
+    color: rgb(55, 162, 233);
 
 }
 
-.about-text {
-
-
-}
-.skills{
-
-}
-
-.contact{
-    
+/* Contact section */
+.main-section .contact {
+    border: dashed;
+    border-radius: 10px;
+    border-color: green
 }
