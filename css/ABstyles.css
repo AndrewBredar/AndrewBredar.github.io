@@ -238,18 +238,38 @@ nav ul li a:hover {
     
 }
 
-/* projects section */
-.main-section .projects {
+.main-section #projects{
+    border: dashed red;
+}
+
+/* project cards*/
+.main-section .card {
+    display: inline-block;
+    
+}
+
+/* projects section header*/
+.main-section #projects-header {
     border: dashed;
     border-radius: 10px;
     border-color: blue;
     background-color: white;
 }
 
+/*projects section content*/
+
+.main-section #projects-content {
+    border: dashed red;
+}
+
 /* projects section title */
 .main-section .projects #projects-info {
     color: rgb(55, 162, 233);
 
+}
+
+.main-section .btn {
+    background-color:rgb(55, 162, 233);
 }
 
 /* Contact section */
