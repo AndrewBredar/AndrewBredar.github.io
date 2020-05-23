@@ -151,7 +151,7 @@ nav ul li a:hover {
 /* Profile pic container */
 .main-section .about .profilepic {
     padding: 100px;
-    border: dashed;
+    border: dashed turquoise;
     width: 40%;
 }
 
@@ -195,11 +195,47 @@ nav ul li a:hover {
     background-color: rgb(55, 162, 233);
 }
 
+.main-section .skills .langs{
+    border: dashed orange;
+    width: 100%;
+}
+
+.main-section .skills .langs img{
+    height: 300px;
+    position: relative;
+    
+}
+
 /* coursework section */
-.main-section .coursework{
+.main-section .skills #coursework{
     border: dashed;
     border-radius: 10px;
     border-color: red;
+}
+
+.main-section .skills .CSE{
+    border: dotted pink;
+    display: flex;
+    float: left;
+    width: 50%;
+}
+
+/*
+.main-section .skills .BUSN {
+    border: dotted purple;
+    display: flex;
+    float: right;
+    width: 30%;
+}
+*/
+
+.main-section .skills #coursework .CSE h2 {
+
+}
+
+.coursework .CSE ul {
+    list-style-type: circle;
+    
 }
 
 /* projects section */
