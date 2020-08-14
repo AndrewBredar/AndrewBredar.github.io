@@ -1,10 +1,10 @@
 <?php
 
 // an email address that will be in the From field of the email.
-$from = 'abredar3@gmail.com';
+$from = 'Demo contact form <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'abredar@scu.edu';
+$sendTo = 'Demo contact form <abredar@scu.edu>';
 
 // subject of the email
 $subject = 'Contact Form Message!';
