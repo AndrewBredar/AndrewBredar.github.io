@@ -4,7 +4,7 @@
 $from = 'Demo contact form <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <abredar@scu.edu>';
+$sendTo = 'abredar@scu.edu';
 
 // subject of the email
 $subject = 'Contact Form Message!';

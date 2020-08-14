@@ -26,6 +26,7 @@
 12. Testimonial area css
 13. Contact area css
 14. Footer area css
+15. Miscellaneous
 
 */
 
@@ -105,7 +106,7 @@ img {
 
 .section-title {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 .section-title h2 span{
     color: #00B0DC;
@@ -766,14 +767,17 @@ canvas{
 /*-------- Services area ends ----------*/
 
 /*--------- 8. Skills area starts --------------*/
+.skills-area .section-title {
+    padding-bottom: 10px;
+}
 
 .skills-area .section-title h2{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .skills-area{
     position: relative;
-    background-image: url(../images/skills/1.jpg);
+    /* background-image: url(../images/skills/1.jpg); */
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -783,12 +787,18 @@ canvas{
 .skills-area:before{
     position: absolute;
     content: '';
-    background: rgba(0,0,0,0.9);
+    background: rgb(255, 255, 255);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+.skills-subhead{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .skillbar {
@@ -1198,6 +1208,13 @@ ul.port-nav-list li a.active {
     font-size: 11px;
     color: #777;
 }
+
+.contact-area a {
+    line-height: 21px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    color: #777;
+}
 /*------------- Contact area ends -------------*/
 
 /*--------------16. Footer area starts -------------*/
@@ -1213,5 +1230,51 @@ ul.port-nav-list li a.active {
 
 /*--------------- Footer area ends -------------*/
 
+/*--------------- Miscellaneous -------------*/
 
+.iconify {
+}
 
+svg[data-icon='logos:html-5'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:c-plusplus'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:c'] {
+font-size: 70px;
+}
+
+svg[data-icon='logos:python'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:css-3'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:javascript'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:git-icon'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:github-icon'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:nodejs-icon'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:react'] {
+    font-size: 70px;
+}
+
+svg[data-icon='logos:bootstrap'] {
+    font-size: 70px;
+}
